@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
   <title>Document</title>
 </head>
 <body>
@@ -21,10 +22,10 @@
       </div>
       
     <!-- div-2 -->
-    <div class="flex gap-15 sm:flex-row gap-2 sm:gap-4 ">
+    <div class="flex gap-15  sm:justify-start gap-2 sm:gap-4 mt-2 sm:mt-0">
       <!-- heart -->
       <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#41ff6b1a] rounded-full gap-4 font-extrabold sm:gap-4">
-        <p>0</p>
+        <p id="loveMain">0</p>
         <img src="assets/heart.png" alt="heatImg" class="w-[30px] h-[30px]">
       </div>
       <!-- coine -->
@@ -33,7 +34,7 @@
         <img src="assets/coin.png" alt="coinImg" class="h-[24px] w-[24px]">
       </div>
       <!-- copy past -->
-      <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#00a63e] rounded-full gap-1 font-bold text-white">
+      <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#00a63e] rounded-full gap-1 font-bold text-white ">
         <p>2</p>
         <p>Copy</p>
       </div>
@@ -42,6 +43,20 @@
   </section>
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- web baner main -->
   <section>
@@ -52,45 +67,66 @@
     </div>
   </section>
 
-<!-- <div class=" flex justify-center">
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-  <div class="border border-red-600 h-[100px] w-[50px] "></div>
-</div> -->
+  <!-- card section -->
+<!-- <div class="bg-[#f5fff6] h-auto grid grid-cols-4 gap-5 p-5 "> -->
+  <div class="bg-[#f5fff6] h-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-5">
 
-
-
-<div class="">
-
-<div class=" border  border-red-600  w-[436px] h-[360px] m-10">
-  <div class="m-5">
-  <div class="flex ">
-    <img src="assets/emergency.png" alt="">
-    <img src="assets/icons8-heart-50.png" alt="">
+<!-- 1 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/emergency.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
   </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">জাতীয় জরুরি সেবা</h2>
+<h4 class="w-[372px] h-[21px] mt-2">National Emergency</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">999</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">সার্বজনীন</h4>
 
-<h2>জাতীয় জরুরি সেবা</h2>
-<h4>National Emergency</h4>
-<p>999</p>
-<h4>সার্বজনীন</h4>
-<div class="flex">
+<div class="flex mt-8 justify-between gap-4">
   <div class="">
-    
-<button class="btn btn-outline">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="" class="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+<!-- 2 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/police.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-2" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">পুলিশ</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Police</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">999</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">পুলিশ</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
 <img src="assets/icons8-copy-32.png" alt="">Copy</button>
   </div>
   <div>
-<button class="btn btn-secondary">
-  <img src="assets/icons8-call-32.png" alt="">Call</button>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
   </div>
   
   
@@ -101,7 +137,248 @@
 
 
 </div>
+<!-- 3 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/fire-service.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-3" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">ফায়ার সার্ভিস</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Fire Service</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">999</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">ফায়ার</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+
+<!-- side section -->
+<div class="row-span-3  w-[400px] h-auto m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white flex justify-between p-5">
+<div class="flex gap-2">
+  <img src="assets/icons8-time-50.png" alt="" class="w-[24px] h-[24px] mt-1">
+  <p class="text-[20px] font-semibold">Call History</p>
+</div>
+<div>
+<button class="btn w-[100px] h-[60px] p-[16px] !bg-[#00a63e] !rounded-full !text-white !font-bold ">Clear</button>
+</div>
+</div>
+<!-- 4 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/ambulance.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-4" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">অ্যাম্বুলেন্স</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Ambulance</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">1994-999999</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">স্বাস্থ্য</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+<!-- 5 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/icons8-collaboration-94.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-5" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">নারী ও শিশু সহায়তা</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Women & Child Helpline</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">109</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">সহায়তা</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+<!-- 6 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/icons8-security-shield-100.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-6" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">দুদক</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Anti-Corruption</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">106</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">সরকারি</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+<!-- 7 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img  src="assets/icons8-electrical-60.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-7" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">বিদ্যুৎ বিভ্রাট</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Electricity Outage</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">16216</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">বিদ্যুৎ</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+</div>
+<!-- 8 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/brac.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-8" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">ব্র্যাক</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Brac</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">16445</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">এনজিও</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+</div>
+<!-- 9 -->
+<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+" >
+  <div class="m-5 ">
+  <div class="flex flex-row items-center justify-between">
+    <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[18px] flex flex-col items-center justify-center ">
+<img src="assets/Bangladesh-Railway.png" alt="" class="w-[32px] h-[32px] ">
+    </div>
+    <img id="heartTipe-9" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
+  </div>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">বাংলাদেশ রেলওয়ে</h2>
+<h4 class="w-[372px] h-[21px] mt-2">Bangladesh Railway</h4>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">163</p>
+<h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">পরিবহন</h4>
+
+<div class="flex mt-8 justify-between gap-4">
+  <div class="">
+<button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
+<img src="assets/icons8-copy-32.png" alt="">Copy</button>
+  </div>
+  <div>
+<button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  </div>
+  
+  
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
 </div>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
 </body>
 </html>
