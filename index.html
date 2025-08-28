@@ -4,27 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
-  <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <title>Emergency Service</title>
+  <link rel="icon" href="assets/logo.png">
 </head>
 <body>
   <!-- footer section -->
   <section>
-    <!-- <div class="flex flex-row justify-between max-w-[1920px] p-4  mx-auto gap-4"> -->
-  <div class="flex flex-col sm:flex-row justify-between items-center max-w-[1920px] p-4 mx-auto gap-4">
-    <!-- div 1 -->
+  <div class="abba-futer flex flex-col sm:flex-row justify-between items-center max-w-[1920px] p-4 mx-auto gap-4">
 <!-- div 1 -->
     <div class="flex">
       <div>
-        <img src="assets/logo.png" alt="logoImg" class="w-[50.99px] h-[50.37]">
+        <img src="assets/logo.png" alt="logoImg" class="embb w-[50.99px] h-[50.37]">
       </div>
-      <div class="w-[135px] h-[44.69px] ml-4 text-[#006747] font-extrabold text-lg ">
+      <div class="mathanost w-[135px] h-[44.69px] ml-4 text-[#006747] font-extrabold text-lg ">
         <p>Emergency<br>Service</p>
       </div>
       </div>
       
     <!-- div-2 -->
-    <div class="flex gap-15  sm:justify-start gap-2 sm:gap-4 mt-2 sm:mt-0">
+    <div class="vagal flex gap-15  sm:justify-start gap-2 sm:gap-4 mt-2 sm:mt-0">
       <!-- heart -->
       <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#41ff6b1a] rounded-full gap-4 font-extrabold sm:gap-4">
         <p id="loveMain">0</p>
@@ -32,11 +31,11 @@
       </div>
       <!-- coine -->
       <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#41ff6b1a] rounded-full gap-4 font-extrabold">
-        <p>100</p>
+        <p id="coinAbba">100</p>
         <img src="assets/coin.png" alt="coinImg" class="h-[24px] w-[24px]">
       </div>
       <!-- copy past -->
-      <div class="flex w-[123px] h-[52px] justify-center p-[12px] bg-[#00a63e] rounded-full gap-1 font-bold text-white ">
+      <div class="copy flex w-[123px] h-[52px] justify-center p-[12px] bg-[#00a63e] rounded-full gap-1 font-bold text-white ">
         <p>2</p>
         <p>Copy</p>
       </div>
@@ -62,19 +61,19 @@
 
   <!-- web baner main -->
   <section>
-    <div class="flex flex-col items-center justify-center h-[239px] w-full bg-[linear-gradient(90deg,rgba(1.25,49.64,34.6,1),rgba(0,103,71,1)_50%,rgba(1,50,35,1)_100%)] mt-[-20] sm:w-[100%]">
-      <img src="assets/logo-dark.png" alt="" class="w-[92px] h-[92px] mt-[-10px]">
+    <div class="nana flex flex-col items-center justify-center h-[239px] w-full bg-[linear-gradient(90deg,rgba(1.25,49.64,34.6,1),rgba(0,103,71,1)_50%,rgba(1,50,35,1)_100%)] mt-[-20] sm:w-[100%]">
+      <img src="assets/logo-dark.png" alt="" class=" w-[92px] h-[92px] mt-[-10px]">
       <h1 class="text-white text-2xl font-bold mt-[20px]">জরুরি সেবা ডিরেক্টরি</h1>
-      <p class="text-white font-semibold mt-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+      <p class="text-white font-semibold mt-[20px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of <span class="Bangladesh">Bangladesh</span></p>
     </div>
   </section>
 
   <!-- card section -->
 <!-- <div class="bg-[#f5fff6] h-auto grid grid-cols-4 gap-5 p-5 "> -->
-  <div class="bg-[#f5fff6] h-auto w-auto md:w-[100%] grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-5 p-5">
+  <div class="abba-card bg-[#f5fff6] h-auto w-auto md:w-[100%] grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-5 p-5">
 
 <!-- 1 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class=" card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -83,19 +82,19 @@
     </div>
     <img id="heartTipe" src="assets/icons8-heart-50.png" alt="" class="w-[24px] h-[24px]">
   </div>
-<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5">জাতীয় জরুরি সেবা</h2>
+<h2 class="w-[372px] h-[32px] text-[24px] font-bold mt-5" id="nameEmarjansy">জাতীয় জরুরি সেবা</h2>
 <h4 class="w-[372px] h-[21px] mt-2">National Emergency</h4>
-<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]">999</p>
+<p class="w-[372px] h-[38px] mt-4 font-bold text-[30px]" id="emarjansyNumber">999</p>
 <h4 class="w-[30%] h-[37px] flex justify-center items-center bg-[#f2f2f2]  rounded-full mt-3">সার্বজনীন</h4>
 
-<div class="flex mt-8 justify-between gap-4">
+<div class="flex mt-8 justify-between gap-4 balo">
   <div class="">
 <button class="btn btn-outline w-[182px] h-[40px] p-[16px]  !rounded-xl">
 <img src="assets/icons8-copy-32.png" alt="" class="">Copy</button>
   </div>
   <div>
 <button class="btn w-[182px] h-[40px] p-[16px] !bg-[#00a63e] !rounded-xl !text-white">
-  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 ">Call</button>
+  <img src="assets/icons8-call-32.png" alt="" class=" -rotate-90 " id="callAbba">Call</button>
   </div>
   
   
@@ -107,7 +106,7 @@
 
 </div>
 <!-- 2 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class=" card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -140,7 +139,7 @@
 
 </div>
 <!-- 3 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class=" card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -174,7 +173,8 @@
 </div>
 
 <!-- side section -->
-<div class="row-span-3  w-[400px] h-auto m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white flex justify-between p-5">
+<div  class="card-para nostomatha row-span-3  w-[400px] h-auto m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white grir grid-rows-2 justify-between p-5">
+<div class="flex justify-between">
 <div class="flex gap-2">
   <img src="assets/icons8-time-50.png" alt="" class="w-[24px] h-[24px] mt-1">
   <p class="text-[20px] font-semibold">Call History</p>
@@ -183,8 +183,12 @@
 <button class="btn w-[100px] h-[60px] p-[16px] !bg-[#00a63e] !rounded-full !text-white !font-bold ">Clear</button>
 </div>
 </div>
+<p id="historyAbba" class=" flex justify-start items-center bg-slate-100 h-auto w-auto rounded-xl mt-10 p-10">
+
+  </p>
+</div>
 <!-- 4 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class="card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -217,7 +221,7 @@
 
 </div>
 <!-- 5 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class=" card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -250,7 +254,7 @@
 
 </div>
 <!-- 6 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class="card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -283,7 +287,7 @@
 
 </div>
 <!-- 7 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class="card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -314,7 +318,7 @@
 
 </div>
 <!-- 8 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class="card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -343,7 +347,7 @@
 </div>
 </div>
 <!-- 9 -->
-<div class="w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
+<div class="card-para w-[436px] h-[360px] m-10 rounded-xl [box-shadow:0px_2px_3px_0px_rgba(0,0,0,0.15)] bg-white 
 " >
   <div class="m-5 ">
   <div class="flex flex-row items-center justify-between">
@@ -382,5 +386,6 @@
 </div>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="script.js"></script>
+<script src="call.js"></script>
 </body>
 </html>
