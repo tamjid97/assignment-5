@@ -7,31 +7,37 @@ All difference :
 
 - getElementById = Returns a specific element by its id. (Only one element)  
 - getElementsByClassName = Returns an HTMLCollection of all elements with given class name.  
-- querySelector = Returns the first element (with css selector or tags name) like ( # , . , <> )  
+- querySelector = Returns the first element (with css selector or tags name) like (/#, . , <> )  
 - querySelectorAll = Returns a nodelist of all element.  
 
 ---
 
 *** How do you create and insert a new element into the DOM?
 
-# 📝 JavaScript DOM & Event Handling Notes
+let div = document.createElement('div')  
+div.innerHTML =  
 
-This README contains important notes about **DOM manipulation** and **event handling** in JavaScript.  
-All answers are written clearly with examples to help understand concepts practically.
+*Assalamualaikum*
+
+document.body.appendChild(div);  
 
 ---
 
-## 1️⃣ Creating and Inserting a New Element into the DOM
+*** What is Event Bubbling and how does it work?
 
-You can create a new element using `document.createElement`, set its content, and insert it into the DOM.
+- When an event trigged on a child element the same event also triggers on its parent elements, bubbling up to the top parent.  
 
-```javascript
-// Create a new div element
-let div = document.createElement('div');
+---
 
-// Set content
-div.innerHTML = "Assalamualaikum";
+*** What is Event Delegation in JavaScript? Why is it useful?
 
-// Insert into the DOM
-document.body.appendChild(div);
+- Event delegation is a way where we put a single event listener on a parent element to handle events on his child elements.  
+- and its useful because its improve performance and no need to add separate event listener for childrens.  
+
+---
+
+*** What is the difference between preventDefault() and stopPropagation() methods :
+
+- preventDefault() = its stops default behavior of browser for an event , like submit button stop his event that relode a page .  
+- stopPropagation() = its stops event bubbling up to parent elements
 
