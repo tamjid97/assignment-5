@@ -14,7 +14,24 @@ All difference :
 
 *** How do you create and insert a new element into the DOM?
 
+# 📝 JavaScript DOM & Event Handling Notes
+
+This README contains important notes about **DOM manipulation** and **event handling** in JavaScript.  
+All answers are written clearly with examples to help understand concepts practically.
+
+---
+
+## 1️⃣ Creating and Inserting a New Element into the DOM
+
+You can create a new element using `document.createElement`, set its content, and insert it into the DOM.
+
 ```javascript
-let div = document.createElement('div')
-div.innerHTML = "Assalamualaikum"
-document.body.appendChild(div)
+// Create a new div element
+let div = document.createElement('div');
+
+// Set content
+div.innerHTML = "Assalamualaikum";
+
+// Insert into the DOM
+document.body.appendChild(div);
+
