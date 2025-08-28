@@ -1,6 +1,6 @@
 # README
 
-##Assalamualaikum
+# Assalamualaikum
 
 
 Answer to the following questions :
