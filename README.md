@@ -17,8 +17,6 @@ All difference :
 let div = document.createElement('div')  
 div.innerHTML =  
 
-*Assalamualaikum*
-
 document.body.appendChild(div);  
 
 ---
